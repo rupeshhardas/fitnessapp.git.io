@@ -1,0 +1,25 @@
+.navBar{
+    display: flex;
+    background-color: rgb(243, 16, 16);
+    height: 50px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.navBar h3{
+    margin-left: 20px;
+   color: white;
+   text-decoration: none;
+}
+.partList{
+    display: inline;
+    border: 1px solid rgb(243, 16, 16);
+    margin: 30px;
+}
+.partList :hover{
+    cursor: pointer;
+}
+.bodyPart:hover li{
+    background-color: rgb(243, 16, 16);
+}
